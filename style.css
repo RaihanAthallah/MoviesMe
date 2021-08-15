@@ -1,6 +1,12 @@
 .container-fluid {
-  padding: 2rem 1rem;
-  background-color: #4d4d4d;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: transparent;
+}
+
+.container {
+  padding-top: 0.5rem;
+  padding-bottom: 9rem;
 }
 
 .img-fluid {
@@ -8,7 +14,10 @@
   height: auto;
   padding: 20px;
 }
-
+.carousel-item {
+  max-width: auto;
+  max-height: 820px;
+}
 .mt {
   margin-top: 0cm;
 }
@@ -25,9 +34,15 @@
 body {
   width: 1000;
 }
-.container {
-  background-color: #4d4d4d;
+h1 {
+  background: #556dcf;
+  background: -webkit-linear-gradient(to right, #556dcf 0%, #cf4091 100%);
+  background: -moz-linear-gradient(to right, #556dcf 0%, #cf4091 100%);
+  background: linear-gradient(to right, #556dcf 0%, #cf4091 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 .hovereffect {
   margin-top: 10px;
   max-width: 100%;
