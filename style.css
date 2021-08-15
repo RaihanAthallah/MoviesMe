@@ -8,6 +8,10 @@
   padding-top: 0.5rem;
   padding-bottom: 9rem;
 }
+.container-s {
+  padding-top: 0.5rem;
+  padding-bottom: 15rem;
+}
 
 .img-fluid {
   max-width: 370px;
